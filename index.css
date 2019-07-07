@@ -1,0 +1,1018 @@
+body {
+    width: 100%;
+    height: 2670px;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: Verdana;
+}
+
+.header {
+    width: 100%;
+    height: 494px;
+}
+
+.header .foricons {
+    width: 34px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    top: 274px;
+    display: block;
+}
+
+.header .foricons img {
+    width: 18px;
+    padding-bottom: 10px;
+    opacity: 0.6;
+    transition: opacity 0.3s;
+}
+
+.header .foricons img:hover {
+    opacity: 1;
+}
+
+.header .forimg {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.header .forimg img {
+    width: 100%;
+    background-size: cover;
+}
+
+.header .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 87%;
+    margin: 0 auto;
+    position: relative;
+    top: 13%;
+}
+
+.header .nav {
+    flex-basis: 50%;
+    height: 15%;
+}
+
+.header .nav h2 {
+    display: inline-block;
+    color: #858688;
+    letter-spacing: -2.5px;
+    font-stretch: condensed;
+    font-size: 24px;
+    margin-top: 3px;
+    margin-left: 17px;
+    margin-bottom: -2px;
+}
+
+.header .nav ul li {
+    display: inline-block;
+    margin-left: -20px;
+    padding-right: 25px;
+    font-size: 10px;
+}
+
+.header .nav ul li a {
+    text-decoration: none;
+    color: #a3a3a3;
+}
+
+.header .menu {
+    flex-basis: 35%;
+    height: 15%;
+}
+
+.header .menu ul {
+    margin-top: 8px;
+}
+
+.header .menu ul li {
+    display: inline-block;
+    margin-left: -2.5%;
+    padding-right: 6.6%;
+    font-size: 15px;
+}
+
+.header .menu ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #000;
+    transition: border 0.1s;
+}
+
+.header .menu ul li a:hover {
+    border-bottom: 1.5px solid gray;
+}
+
+.header .signup {
+    flex-basis: 8%;
+    height: 15%;
+}
+
+.header .signup img {
+    width: 13px;
+    height: 10px;
+    margin-top: 12px;
+    margin-left: 18px;
+    float: left;
+    padding-right: 9px;
+}
+
+.header .signup p {
+    margin-top: 9px;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: -1px;
+}
+
+.header .button {
+    flex-basis: 6%;
+}
+
+.header .button button {
+    width: 80px;
+    height: 36px;
+    border-radius: 20px;
+    border: 0;
+    color: #fff;
+    font-weight: bold;
+    background: linear-gradient(to bottom right, #582c7e, #5a3b8e, #616bc0, #6276cd);
+    float: right;
+    box-shadow: 0 9px 13px -3px #6276cd;
+    transition: font-size 0.3s;
+}
+
+.header .button button:hover {
+    font-size: 17px;
+}
+
+.header .secure {
+    flex-basis: 100%;
+    height: 67%;
+}
+
+.header .secure div {
+    margin: 137px auto 0;
+    width: 54%;
+}
+
+.header .secure div p {
+    font-size: 44px;
+    text-align: center;
+    padding-left: 5px;
+    color: #797a79;
+}
+
+.header .secure div h1 {
+    font-size: 26.3px;
+    text-align: center;
+    padding-left: 11px;
+    font-weight: normal;
+    padding-top: -40px;
+    margin-top: -32px;
+    color: #797a79;
+}
+
+.header .buttons {
+    flex-basis: 100%;
+    height: 18%;
+}
+
+.header .container .box img {
+    position: absolute;
+    width: 42%;
+    top: 380px;
+    left: 29.5%;
+    z-index: -1;
+}
+
+.header .buttons div {
+    width: 340px;
+    height: 85%;
+    margin: auto auto;
+}
+
+.header .buttons .createAcc {
+    width: 210px;
+    height: 50px;
+    border-radius: 25px;
+    border: 0;
+    background: linear-gradient(to left, #582c7e, #5a3b8e, #616bc0);
+    color: #fff;
+    font-size: 15px;
+    position: relative;
+    top: -5px;
+    left: 15px;
+    transition: background 0.3s;
+    box-shadow: 0 9px 23px -1px #6276cd;
+}
+
+.header .buttons .createAcc:hover {
+    background: blue;
+}
+
+.header .buttons .apple {
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 22px;
+    margin-top: 15px;
+    margin-left: 27px;
+    background-color: #582c7e;
+    transition: background 0.3s;
+
+}
+
+.header .buttons .apple:hover {
+    background: blue;
+}
+
+.header .buttons .android {
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 22px;
+    margin-left: 10px;
+    background-color: #582c7e;
+    transition: background 0.3s;
+}
+
+.header .buttons .android:hover {
+    background: blue;
+}
+
+.header .buttons img {
+    width: 20px;
+    filter: brightness(0) invert(1);
+}
+
+.main {
+    width: 100%;
+    height: 1725px;
+    position: relative;
+    top: -2.3%;
+}
+
+.main .container {
+    width: 74%;
+    height: 401px;
+    margin: 340px 0 0 17.2%;
+}
+
+.main .container {
+    display: grid;
+    grid-template-areas: "s e a" "p p p";
+}
+
+.main .container hr {
+    background-color: #b9b9b9;
+    position: absolute;
+    border: 0.4px solid #b9b9b9;
+}
+
+.main .container .learnMore button {
+    border: 1px solid #bfbfbf;
+    width: 285px;
+    height: 50px;
+    border-radius: 25px;
+    position: absolute;
+    left: 54.5%;
+    top: 377px;
+    background-color: white;
+    font-size: 13px;
+    color: #676767;
+    transition: background-color 0.3s, color 0.5s;
+}
+
+.main .container .learnMore button:hover {
+    background-color: #676767;
+    color: white;
+}
+
+.main .container .swiss {
+    grid-area: s;
+}
+
+.main .container .encription {
+    grid-area: e;
+}
+
+.main .container .anon {
+    grid-area: a;
+}
+
+.main .container .phisical {
+    grid-area: p;
+    margin-top: 47px;
+    height: 80%;
+}
+
+.row {
+    display: inline-block;
+    height: 70px;
+    width: 100%;
+}
+
+.main .container .row img {
+    width: 55px;
+    float: left;
+    padding-right: 10px;
+}
+
+.main .container h2 {
+    font-size: 23px;
+    letter-spacing: -1px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.main .container .row p {
+    font-size: 13px;
+    margin-top: -15px;
+    color: #959393;
+}
+
+.main .container .paragraph {
+    font-size: 10px;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-top: 5px;
+    line-height: 20px;
+    color: #959393;
+}
+
+.main .container .phisical h1 {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 43px;
+    margin-right: 5px;
+    margin-left: 28.5%;
+    color: #535353;
+}
+
+.main .container .phisical p {
+    margin-left: 14%;
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    margin-top: -20px;
+    color: #959393;
+    text-align: right;
+}
+
+.main .container .phisical div {
+    width: 61%;
+}
+
+.main .computer {
+    width: 100%;
+    height: 985px;
+    margin-left: 0;
+}
+
+.main .computer .news img {
+    margin-top: 60px;
+    margin-left: 18px;
+    width: 800px;
+}
+
+.main .computer .poligon {
+    position: absolute;
+    width: 100%;
+    height: 730px;
+    clip-path: polygon(0 24%, 100% 0, 100% 100%, 0% 100%);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(238, 238, 238, 1) 100%);
+    z-index: -10;
+    top: 655px;
+}
+
+.main .computer .containerContent {
+    width: 71%;
+    margin: 0 auto;
+    height: 55%;
+}
+
+.main .computer .imgcomp img {
+    position: absolute;
+    width: 500px;
+    top: 550px;
+    left: 53%;
+    z-index: -1;
+}
+
+.main .computer .containerContent .slider {
+    width: 520px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.main .computer .containerContent .slider .dots {
+    height: 100%;
+    width: 50px;
+    float: left;
+    display: block;
+}
+
+.main .computer .containerContent .slider .dots .radio {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #b7b7b7;
+    margin-top: 9px;
+    margin-left: 18px;
+
+}
+
+.main .computer .containerContent .slider p {
+    margin-top: 45px;
+    font-size: 18px;
+    line-height: 27px;
+
+}
+
+.main .computer .containerContent .anyDevice {
+    width: 40%;
+    height: 175px;
+    margin: 80px auto 0;
+}
+
+.main .computer .containerContent .anyDevice .text {
+    width: 93%;
+    height: 125px;
+}
+
+.main .computer .containerContent .anyDevice .text h2 {
+    font-weight: 400;
+    text-align: right;
+    font-size: 26px;
+}
+
+.main .computer .containerContent .anyDevice .text p {
+    font-size: 12px;
+    text-align: right;
+    margin-top: -5px;
+    line-height: 17px;
+    margin-right: 8px;
+    color: #959393;
+}
+
+.main .computer .containerContent .anyDevice .imgMarkets {
+    width: 81%;
+    height: 50px;
+    float: right;
+}
+
+.main .computer .containerContent .anyDevice .imgMarkets img {
+    width: 43%;
+}
+
+.main .computer .lastmain {
+    width: 77.6%;
+    height: 277px;
+    float: right;
+    border-top: 1px solid #b9b9b9;
+}
+
+.main .computer .lastmain .privacy {
+    width: 48%;
+    margin-top: 50px;
+    margin-left: 12%;
+}
+
+.main .computer .lastmain .privacy .privacyText {
+    width: 100%;
+    height: 60%;
+}
+
+.main .computer .lastmain .privacy .privacyText h3 {
+    font-weight: 400;
+    font-size: 26px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.main .computer .lastmain .privacy .privacyText p {
+    font-size: 21px;
+    text-align: center;
+    margin-top: -20px;
+    color: #7c7c7c;
+}
+
+.main .computer .lastmain .privacy .privacyButtons {
+    width: 100%;
+    height: 68px;
+}
+
+.main .computer .lastmain .privacy .privacyButtons .update {
+    width: 38%;
+    height: 50px;
+    border-radius: 25px;
+    border: 0;
+    background: linear-gradient(to left, #582c7e, #5a3b8e, #616bc0);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    box-shadow: 0 9px 13px -3px #6276cd;
+    margin-left: 15%;
+    margin-top: 6px;
+    transition: font-size 0.3s;
+}
+
+.main .computer .lastmain .privacy .privacyButtons .update:hover {
+    font-size: 18px;
+}
+
+.main .computer .lastmain .privacy .privacyButtons .donate {
+    width: 25%;
+    height: 50px;
+    border-radius: 25px;
+    border: 0;
+    background: linear-gradient(to left, #5e7bea, #36bae1);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    box-shadow: 0 9px 13px -3px #6276cd;
+    margin-left: 6%;
+    transition: font-size 0.3s;
+
+}
+
+.main .computer .lastmain .privacy .privacyButtons .donate:hover {
+    font-size: 18px;
+}
+
+.footer {
+    width: 100%;
+    height: 513px;
+    position: relative;
+    top: -15.1%;
+}
+
+.footer .footerContent {
+    width: 78.4%;
+    height: 380px;
+    border-top: 1px solid #b9b9b9;
+    border-right: 1px solid #b9b9b9;
+}
+
+.footer .footerContent hr {
+    background-color: #b9b9b9;
+    border: 0.4px solid #b9b9b9;
+}
+
+.footer .footerContent .logos p {
+    font-size: 12px;
+    letter-spacing: -1px;
+    margin-right: 20px;
+    margin-top: 16px;
+    color: #838383;
+    text-align: right;
+}
+
+.footer .footerContent .logos img {
+    width: 70%;
+    margin-right: -35px;
+    margin-top: -10px;
+    float: right;
+}
+
+.footer .footerContent .grid {
+    display: grid;
+    width: 85%;
+    height: 135px;
+    margin-top: 135px;
+    float: right;
+    grid-template-columns: 2fr 1fr 1fr 0.85fr;
+
+}
+
+.footer .footerContent .contacts p {
+    font-size: 10px;
+    line-height: 20px;
+    margin-top: -4px;
+    margin-left: 8px;
+    color: #5c5c5c;
+}
+
+.footer .footerContent .contacts p a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #5c5c5c;
+}
+
+.rowGrid {
+    width: 100%;
+    height: 20px;
+}
+
+.rowGrid h4 {
+    font-weight: 400;
+    font-size: 13px;
+    text-align: right;
+    padding-right: 20px;
+    margin-top: 0;
+}
+
+.footer .ul ul li {
+    list-style: none;
+    text-align: right;
+}
+
+.footer .ul ul li:after {
+    content: "\25CF";
+    padding-right: 20px;
+    padding-bottom: 50px;
+    font-size: 8px;
+    margin-left: 6px;
+}
+
+.footer .ul ul li a {
+    font-size: 10px;
+    text-decoration: none;
+    color: #5c5c5c
+}
+
+.footer .end {
+    width: 20%;
+    height: 60px;
+    margin-left: 11%;
+    margin-top: 60px;
+}
+
+.footer .end ul {
+    margin-left: -40px;
+}
+
+.footer .end ul li {
+    display: inline-block;
+    font-size: 10px;
+
+}
+
+.footer .end ul li a {
+    text-decoration: none;
+    color: #676767;
+}
+
+.footer .end p {
+    font-size: 9px;
+    color: #5c5c5c;
+}
+
+@media (max-width: 1453px) {
+    .header .nav {
+        flex-basis: 40%;
+    }
+
+    .header .menu {
+        flex-basis: 60%;
+    }
+
+    .header .menu ul {
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .header .menu ul li {
+        padding-right: 5%;
+        margin-left: -1%;
+    }
+
+    .header .signup {
+        flex-basis: 15%;
+        margin-top: 15px;
+    }
+
+    .header .button {
+        flex-basis: 25%;
+        margin-top: 15px;
+    }
+
+    .header .button button {
+        float: left;
+        width: 50%;
+        height: 50%;
+    }
+
+    .header .secure {
+        margin-top: -100px;
+    }
+
+    .header .forimg img {
+        position: absolute;
+        top: 100px;
+    }
+
+    .container hr {
+        display: none;
+    }
+
+    .main .container {
+        margin-top: 315px;
+    }
+
+    .main .container .phisical {
+        margin-top: -30px;
+    }
+
+    .main .container .phisical div {
+        width: 85%;
+    }
+
+    .main .container .phisical p {
+        text-align: center;
+    }
+
+    .main .container .learnMore button {
+        width: 40%;
+        left: 30%;
+    }
+
+    .main .computer .imgcomp img {
+        width: 460px;
+    }
+
+    .main .computer .containerContent .anyDevice {
+        width: 46%;
+    }
+
+    .main .lastmain .privacy {
+        width: 60%;
+    }
+
+}
+
+@media (max-width: 1170px) {
+    .main .container {
+        margin-top: 200px;
+    }
+
+    .main .computer .lastmain .privacy .privacyButtons .update {
+        width: 50%;
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 951px) {
+    .header .nav {
+        flex-basis: 30%;
+    }
+
+    .header .nav ul li a {
+        font-size: 8px;
+    }
+
+    .header .menu {
+        flex-basis: 70%;
+    }
+
+    .header .menu ul {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .header .menu ul li {
+        padding-right: 3%;
+        margin-left: -1%;
+    }
+
+    .header .forimg img {
+        position: absolute;
+        top: 220px;
+    }
+
+    .main .container {
+        display: grid;
+        grid-template-areas: "s" "e" "a" "p";
+    }
+
+    .main .swiss .row img {
+        padding-left: 16px;
+    }
+
+    .main .computer {
+        margin-top: 160px;
+    }
+
+    .main .container .learnMore button {
+        position: relative;
+        top: 0;
+    }
+
+    .main .container .phisical div {
+        width: 90%;
+    }
+
+    .main .container .phisical h1 {
+        margin-left: 20%;
+    }
+
+    .main .container .learnMore button {
+        width: 50%;
+        left: 25%;
+    }
+
+    .main .computer .news img {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 80px;
+    }
+
+    .main .computer .imgcomp img {
+        width: 320px;
+        margin-top: 300px;
+    }
+
+    .main .computer .poligon {
+        position: absolute;
+        top: 780px;
+    }
+
+    .main .computer .containerContent .slider {
+        margin-left: 0;
+    }
+
+    .main .computer .containerContent .anyDevice {
+        width: 67%;
+        margin-left: 10%;
+        margin-top: 50px;
+    }
+
+    .main .computer .lastmain .privacy {
+        width: 72%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .footer {
+        margin-top: 160px;
+    }
+
+    .footer .footerContent {
+        border-right: 0;
+        width: 100%;
+    }
+
+    .footer .footerContent .logos img {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .footer .footerContent .logos p {
+        text-align: center;
+    }
+
+    .footer hr {
+        display: none;
+    }
+
+    .footer .footerContent .grid {
+        width: 100%;
+        margin-top: 40px;
+        grid-template-columns: 1.2fr 1fr 1.1fr 1fr;
+    }
+
+    .footer .end {
+        margin-top: -50px;
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 720px) {
+    .header .nav {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .header .nav h2 {
+        margin-left: 0;
+        font-size: 30px;
+    }
+
+    .header .nav ul {
+        margin-top: 0;
+    }
+
+    .header .menu {
+        flex-basis: 100%;
+    }
+
+    .header .menu ul {
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .header .menu ul li {
+        padding-right: 2.5%;
+        margin-left: -1%;
+    }
+
+    .header .signup {
+        flex-basis: 25%;
+        margin-top: 15px;
+
+    }
+
+    .header .button {
+        flex-basis: 50%;
+        margin-top: 15px;
+    }
+
+    .header .secure div p {
+        font-size: 24px;
+    }
+
+    .header .forimg img {
+        position: absolute;
+        top: 260px;
+    }
+
+    .header .secure div {
+        width: 90%;
+    }
+
+    .header .buttons {
+        margin-top: -80px;
+    }
+
+    .main {
+        position: relative;
+        top: -4.7%;
+    }
+
+    .main .container .phisical h1 {
+        font-size: 28px;
+        margin-top: 30px;
+    }
+
+    .main .container .learnMore button {
+        width: 75%;
+        margin-left: -12.5%;
+    }
+
+    .main .news {
+        margin-top: 200px;
+    }
+
+    .main .computer .containerContent .slider {
+        width: 100%;
+    }
+
+    .main .computer .containerContent .slider p {
+        font-size: 14px;
+    }
+
+    .main .computer .imgcomp img {
+        width: 200px;
+        margin-top: 400px;
+    }
+
+    .main .computer .containerContent .anyDevice {
+        width: 85%;
+    }
+
+    .main .computer .containerContent .anyDevice .text h2 {
+        text-align: center;
+        font-size: 23px;
+    }
+
+    .main .computer .containerContent .anyDevice .text p {
+        text-align: center;
+    }
+
+    .main .computer .containerContent .anyDevice .imgMarkets {
+        float: none;
+        margin-left: 8%;
+    }
+
+    .main .lastmain {
+        margin-top: -100px;
+    }
+
+    .main .computer .lastmain .privacy .privacyButtons .update {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .main .computer .lastmain .privacy .privacyButtons .donate {
+        margin-left: 0;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .footer .ul ul li:after {
+        padding-right: 3px;
+    }
+}
+
+
+
